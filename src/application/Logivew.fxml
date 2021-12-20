@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="279.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Logview">
+   <children>
+      <TableView fx:id="TableLog" prefHeight="277.0" prefWidth="1000.0">
+        <columns>
+          <TableColumn fx:id="User" prefWidth="153.0" text="Username" />
+          <TableColumn fx:id="pickup" prefWidth="138.0" text="Pickup" />
+            <TableColumn fx:id="dropoff" prefWidth="177.0" text="Dropoff" />
+            <TableColumn fx:id="weight" prefWidth="163.0" text="Weight" />
+            <TableColumn fx:id="product" prefWidth="158.0" text="Product" />
+            <TableColumn fx:id="bill" prefWidth="207.0" text="Bill" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

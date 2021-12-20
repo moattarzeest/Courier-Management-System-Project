@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane layoutX="-168.0" layoutY="-165.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="997.0" prefWidth="1585.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Details">
+   <children>
+      <TextField fx:id="length" layoutX="959.0" layoutY="725.0" onMouseClicked="#getLength" />
+      <TextField fx:id="width" layoutX="901.0" layoutY="825.0" onMouseClicked="#getWidth" />
+      <Button fx:id="back" layoutX="665.0" layoutY="851.0" mnemonicParsing="false" onMouseClicked="#clickBack" text="Back" />
+      <Button fx:id="checkout" layoutX="1445.0" layoutY="851.0" mnemonicParsing="false" onMouseClicked="#clickCheckout" text="Checkout" />
+      <TextField fx:id="name" layoutX="987.0" layoutY="675.0" onMouseClicked="#getName" />
+      <TextField fx:id="weight" layoutX="931.0" layoutY="774.0" onMouseClicked="#getWeight" />
+      <ImageView fitHeight="835.0" fitWidth="495.0" layoutX="166.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/images%20(4).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="449.0" fitWidth="571.0" layoutX="1087.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/image_processing20200225-23547-1qft1mq.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="701.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true" />
+      <Text layoutX="665.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOW, LET'S WEIGHT YOUR PARCEL" wrappingWidth="271.705078125">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Text>
+      <Line endX="208.0" layoutX="749.0" layoutY="515.0" startX="-100.0" />
+      <Line endX="208.0" layoutX="746.0" layoutY="218.0" startX="-100.0" />
+      <Text layoutX="776.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BTAO KIA BHEJNA HA" wrappingWidth="141.95068359375">
+         <font>
+            <Font name="System Italic" size="22.0" />
+         </font>
+      </Text>
+      <Circle fill="#1d1e1e" layoutX="951.0" layoutY="602.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#1d1e1e" layoutX="931.0" layoutY="602.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#1d1e1e" layoutX="914.0" layoutY="602.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text layoutX="791.0" layoutY="696.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Name" />
+      <Text layoutX="792.0" layoutY="795.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Length" />
+      <Text layoutX="791.0" layoutY="741.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weight" />
+      <Text layoutX="794.0" layoutY="847.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Width" />
+   </children>
+</Pane>

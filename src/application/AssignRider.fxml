@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AssignRider">
+   <children>
+      <Pane layoutX="-188.0" layoutY="-117.0" prefHeight="949.0" prefWidth="1082.0" style="-fx-background-color: white;">
+         <children>
+            <Text layoutX="229.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <ImageView fitHeight="835.0" fitWidth="1491.0" layoutX="503.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/images%20(3).jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="245.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username: ">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <TextField fx:id="assignUser" layoutX="245.0" layoutY="475.0" />
+            <Button layoutX="404.0" layoutY="543.0" mnemonicParsing="false" onMouseClicked="#enter" prefHeight="38.0" prefWidth="66.0" text="Enter" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="258.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/e507d704d4b6fdcb17116762fcd99acd.gif" />
+               </image>
+            </ImageView>
+            <Text layoutX="909.0" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ASSIGN ORDERS TO RIDERS">
+               <font>
+                  <Font name="System Bold Italic" size="50.0" />
+               </font>
+            </Text>
+            <Text layoutX="229.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RIDER INFORMATION" wrappingWidth="527.869140625">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="909.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BHEJO RIDERS ARE ALWAYS READY TO DELIVER EVERYTHING ASAP!" wrappingWidth="232.1201171875">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CustomerCreateAccount">
+   <children>
+      <Pane layoutX="-168.0" layoutY="-77.0" prefHeight="700.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="889.0" fitWidth="1576.0" layoutX="168.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/plain-soid-Rebecca-Purple-bhackground-images.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="back" layoutX="407.0" layoutY="822.0" mnemonicParsing="false" onMouseClicked="#clickBack" text="Back" />
+            <Text layoutX="735.0" layoutY="792.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+            <Text layoutX="735.0" layoutY="732.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+            <Text layoutX="733.0" layoutY="664.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+            <Button fx:id="createAcc" layoutX="1410.0" layoutY="822.0" mnemonicParsing="false" onMouseClicked="#clickCreateAcc" text="Create Account" />
+            <Text fill="#030101" layoutX="733.0" layoutY="535.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+            <TextField fx:id="name" layoutX="883.0" layoutY="513.0" onMouseClicked="#getName" />
+            <TextField fx:id="username" layoutX="883.0" layoutY="642.0" onMouseClicked="#getUsername" />
+            <TextField fx:id="contact" layoutX="883.0" layoutY="571.0" onMouseClicked="#getContact" />
+            <TextField fx:id="pass" layoutX="883.0" layoutY="711.0" onMouseClicked="#getPass" />
+            <Text layoutX="726.0" layoutY="602.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Number" />
+            <TextField fx:id="email" layoutX="883.0" layoutY="771.0" onMouseClicked="#getEmail" />
+            <Text fill="#edf0eb" layoutX="1222.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FIKAR NOT, ALL YOUR INFORMATION IS SAFE WITH US. " wrappingWidth="473.578125">
+               <font>
+                  <Font name="Calibri Bold" size="48.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="886.0" fitWidth="229.0" layoutX="168.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/hr-tag-angular.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="293.0" fitWidth="452.0" layoutX="742.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/822ec75c0838cc3b257e5bf0275ec199.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="#f5f2f2" layoutX="874.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CREATE AN ACCOUNT">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="243.0" fitWidth="239.0" layoutX="177.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/Untitled%20design.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="195.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WE TRY OUR BEST TO PROVIDE YOU A SAFE AND SECURE SERVICE" wrappingWidth="134.39646100997925" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

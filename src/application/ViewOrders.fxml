@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="tableOrder" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="823.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.ViewOrders">
+  <columns>
+    <TableColumn fx:id="sender" prefWidth="130.0" text="Sender Name" />
+    <TableColumn fx:id="pickup" minWidth="0.0" prefWidth="128.0" text="Pickup" />
+      <TableColumn fx:id="dropoff" minWidth="0.0" prefWidth="136.0" text="Dropoff" />
+      <TableColumn fx:id="weight" minWidth="0.0" prefWidth="136.0" text="Weight" />
+      <TableColumn fx:id="product" minWidth="0.0" prefWidth="154.0" text="Product" />
+      <TableColumn fx:id="bill" minWidth="0.0" prefWidth="138.0" text="Bill" />
+  </columns>
+</TableView>
